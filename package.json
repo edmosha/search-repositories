@@ -42,8 +42,6 @@
     "webpack-livereload-plugin": "^3.0.2"
   },
   "dependencies": {
-    "@octokit/auth-token": "^3.0.3",
-    "core-js": "^3.27.2",
-    "octokit": "^2.0.14"
+    "core-js": "^3.27.2"
   }
 }
