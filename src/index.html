@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Title</title>
+</head>
+<body class="page">
+  <main>
+
+		<svg class="spinner" viewBox="0 0 50 50">
+			<circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+		</svg>
+
+		<section class="search">
+			<form class="search__form" name="search">
+				<input type="text" class="search__input" name="search" minlength="2" maxlength="20"
+							 placeholder="Введите ключевые слова через пробел" required>
+				<button class="search__submit-btn search__submit-btn_inactive" disabled>Search</button>
+				<p class="search__error"></p>
+			</form>
+
+		</section>
+
+		<section class="results">
+			<ul class="results__container">
+				<li><p class="results__status">Здесь пока пусто...</p></li>
+			</ul>
+		</section>
+
+	</main>
+
+	<template id="repo-card">
+		<li class="results__item">
+			<article class="card">
+				<h2 class="card__repo-name">
+					<a href="#" target="_blank" class="card__repo-link"></a>
+				</h2>
+				<p class="card__description"></p>
+				<p class="card__language"></p>
+				<img src="" alt="" class="card__author-avatar">
+				<p class="card__author"></p>
+			</article>
+		</li>
+	</template>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.page {
+  font-family: 'Montserrat', sans-serif;
+  //background: linear-gradient(180deg, #F1F3F6 0, #dae5ef 100%) no-repeat;
+  padding: 0 40px;
+  min-height: 100vh;
+
+  @media screen and (max-width: 540px) {
+    padding: 0 20px;
+  }
+}
+
+//* {
+//  border: 1px solid #6a6a6a;
+//}

@@ -1,0 +1,10 @@
+/* vendor */
+@import "../vendor/normalize.scss";
+@import "../vendor/fonts/Montserrat.scss";
+
+/* page */
+@import "../blocks/page/page.scss";
+@import "../blocks/search/search.scss";
+@import "../blocks/results/results";
+@import "../blocks/card/card";
+@import "../blocks/spinner/spinner.scss";
